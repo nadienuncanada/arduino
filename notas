@@ -1,0 +1,12 @@
+microcontrolador para casos puntuales a diferencia de los microprocesador(rasberry) 
+sensor recibe señales y nos permite medir, lo traduce a señales electricas las cuales el procesador(procesamiento y control) los va a entender y dar un output(actuadores),alimentacion.(ejemplo: medidor de humedad el cual cuando detecte que se necesite o se quiera prender, prenda un ventilador, el actuador seria quien prende el ventilador).
+  arduino uno el mas clasico limita la cantidad de conexiones, el arguino mega tiene mayor cantidad de entradas, depende de la necesidad del ususario,arduinos para juegos,arduino con bluethoot o con wifi.
+a los arduinos uno se los puede colocar placas para ampliar su funcionalidad.
+Partes de Arduino: 
+	parte superior:pines digitales del 0 al 13, abajo del todo pines analogicos a su izquierda sistema 		de alimentacion,cuenta con una memoria la cual se puede lec/esc, se la puede alimentar por usb o 	fuente externa,boton reset, tx,rtx se le puede instalar bluethoot y controlarlo desde "lejos".
+Entorno IDE o Thinke.
+void setup: delimitado por las llaves, configurar y se ejecuta una sola vez toda la configuracion del arduino. pin-input o output 
+void loop: 
+	
+case sensitive: no es lo mismo las mayus que las minus, la identacion no le importa, pero si lo hace mas legible y es mejor practica.
+led: anodo positivo (doblado),	
